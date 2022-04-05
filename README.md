@@ -1,65 +1,88 @@
-# Hunt-AR-fe
+<div id="top"></div>
 
-The frontend repository for Hunt-AR, a browser-first, quick to set up and accessible AR treasure hunt game.
-
+<!-- PROJECT LOGO -->
 <br />
+<div align="center">
+  <a href="https://github.com/bayardt/huntar_fe">
+    <img src="HuntAR.png" alt="Logo" height="80">
+  </a>
 
-## Getting Started with Create React App
+<h3 align="center">HuntAR</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    <a href="https://scavengar.netlify.app">View Demo</a>
+  </p>
+</div>
 
-<br />
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-<br />
 
-`npm start`
 
-<br />
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is the front-end component of a browser-based AR scavenger hunt game. The game allows players to create a scavenger hunt comprising of five items located in real places and to then share that game with their friends.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It was created in collaboration by:
+* [Imadeddeen Almenghawi](https://github.com/Menghacoder)
+* [Roo da Silva](https://github.com/Roothebear)
+* [Faiza Khan](https://github.com/faizakhancode)
+* [Kalum Wildig](https://github.com/kalumwildig)
+* [Bayard Tarpley](https://github.com/bayardt)
 
-<br />
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-`npm run build`
 
-<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [React.js](https://reactjs.org/)
+* [ar.js](https://github.com/AR-js-org/AR.js)
+* [A-Frame](https://aframe.io)
+* [Google Maps](https://developers.google.com/maps)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-<br />
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As well as following the instructions below you may want to look at the information for the accompanying back-end repo: https://github.com/bayardt/huntar-be
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Node v17.0.0 or higher is recommended on your development machine to work with this repo.
 
-### Advanced Configuration
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/bayardt/huntar-fe.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
