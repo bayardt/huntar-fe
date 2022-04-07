@@ -10,7 +10,7 @@
 <h3 align="center">HuntAR</h3>
 
   <p align="center">
-    <a href="https://scavengar.netlify.app">View Demo</a>
+    <a href="https://huntar.netlify.app">View Demo</a>
   </p>
 </div>
 
